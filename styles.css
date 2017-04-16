@@ -1,9 +1,28 @@
+body{
+	background-color: #99ff66;
+	font-family: cursive;
+}
+#left_bar{
+	width: 25%;
+	float: left;
+}
+#right_bar{
+	width: 75%;
+	float: right;
+}
 .side_bar{
 	width: 200px;
 	background: lightblue;
-	border-right: 3px solid green;
+	border-right: 3px solid #00cc00;
+	border-bottom: 3px solid #00cc00;
 	position: absolute;
 	top: 0;
 	left: 0;
 	bottom: 0;
+	border-bottom-right-radius: 10px;
+
+}
+
+#news_feed{
+	align-items: center;
 }
